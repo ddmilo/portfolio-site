@@ -3,3 +3,18 @@
 	width: 1500px;
 }
 
+.main-content h3 {
+	text-decoration: underline;
+}
+
+.projectone {
+	float: left;
+}
+
+.projects-content h4 {
+	text-decoration: underline;
+}
+
+footer {
+	clear: both;
+}
