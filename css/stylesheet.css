@@ -2,7 +2,7 @@
 .carousel-item img {
 	height: 300px;
 	width: 700px;
-	margin: 0 auto;	
+	margin: 0 auto;
 	background-color: black;
 }
 
@@ -15,6 +15,12 @@
 }
 
 .projectone {
+	float: left;
+}
+
+.projects-content {
+	clear: both;
+	padding: 40px;
 	float: left;
 }
 
@@ -39,4 +45,10 @@ footer {
 .footer a {
 	text-decoration: none;
 	color: inherit;
+}
+
+.project-two {
+	clear: both;
+	padding: 40px;
+	float: left;
 }
