@@ -1,44 +1,54 @@
 
 .carousel-item img {
-	height: 300px;
-	width: 700px;
+	height: 500px;
+	width: 790px;
 	margin: 0 auto;
-	background-color: black;
+	background-color: #190928;
 }
 
 .carousel-item {
-	background-color: black;
+	background-color: #190928;
+}
+
+.main-content {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .main-content h3 {
 	text-decoration: underline;
 }
 
-.projectone {
-	float: left;
-}
 
 .projects-content {
-	clear: both;
+	text-align: center;
 	padding: 40px;
-	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-around;
+
+
 }
 
 .projects-content h4 {
 	text-decoration: underline;
 }
 
-footer {
-	clear: both;
-	color: white;
-}
+
 
 .footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
 	background-color: #292b2c;
-/*	position: fixed;
-*/	bottom: 0;
-	width: 100%;
-	height: 65px;
+
 
 }
 
@@ -47,8 +57,70 @@ footer {
 	color: inherit;
 }
 
-.project-two {
-	clear: both;
-	padding: 40px;
+
+
+body {
+	color: white;
+	background-color: #190928;
+	font-family: 'Ranga', cursive;
+	font-size: 25px;
+}
+
+.jumbotron {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: url('../images/jumbo-pic.jpg')no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+	align-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.jumbotron h1 {
+	font-size: 100px;
+}
+
+.profile-pic {
+	height: 250px;
+	width: 250px;
+	border-radius: 50px;
 	float: left;
+	border: 3px solid white;
+	margin-bottom: 20px;
+	/*position: absolute;*/
+}
+
+
+
+.skill-content {
+	background: #684E7D; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #684E7D , #F3613F); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #684E7D, #F3613F); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #684E7D, #F3613F); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #684E7D , #F3613F); /* Standard syntax */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	clear: both;
+
+}
+
+.skill-heading {
+	left: 100px;
+	float: left;
+}
+
+.vault-boy {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	float: left;
+}
+
+.carousel-caption {
+	background-color: rgba(128, 128, 128, 0.9);
+	text-align: center;
 }
