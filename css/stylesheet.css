@@ -1,13 +1,13 @@
 
 .carousel-item img {
-	height: 300px;
-	width: 700px;
+	height: 500px;
+	width: 790px;
 	margin: 0 auto;
-	background-color: black;
+	background-color: #190928;
 }
 
 .carousel-item {
-	background-color: black;
+	background-color: #190928;
 }
 
 .main-content {
@@ -22,31 +22,33 @@
 	text-decoration: underline;
 }
 
-.projectone {
-	float: left;
-}
 
 .projects-content {
-	clear: both;
+	text-align: center;
 	padding: 40px;
-	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-around;
+
+
 }
 
 .projects-content h4 {
 	text-decoration: underline;
 }
 
-footer {
-	clear: both;
-	color: white;
-}
+
 
 .footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
 	background-color: #292b2c;
-/*	position: fixed;
-*/	bottom: 0;
-	width: 100%;
-	height: 65px;
+
 
 }
 
@@ -55,11 +57,7 @@ footer {
 	color: inherit;
 }
 
-.project-two {
-	clear: both;
-	padding: 40px;
-	float: left;
-}
+
 
 body {
 	color: white;
@@ -120,4 +118,9 @@ body {
 	width: 200px;
 	position: relative;
 	float: left;
+}
+
+.carousel-caption {
+	background-color: rgba(128, 128, 128, 0.9);
+	text-align: center;
 }
