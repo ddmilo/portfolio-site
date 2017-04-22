@@ -10,6 +10,14 @@
 	background-color: black;
 }
 
+.main-content {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .main-content h3 {
 	text-decoration: underline;
 }
@@ -79,9 +87,10 @@ body {
 .profile-pic {
 	height: 250px;
 	width: 250px;
-	border-radius: 180px;
+	border-radius: 50px;
 	float: left;
-	padding: 20px;
+	border: 3px solid white;
+	margin-bottom: 20px;
 	/*position: absolute;*/
 }
 
