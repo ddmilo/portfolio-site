@@ -55,10 +55,60 @@ footer {
 
 body {
 	color: white;
-	background-color: black;
+	background-color: #190928;
 	font-family: 'Ranga', cursive;
+	font-size: 25px;
 }
 
 .jumbotron {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url('../images/jumbo-pic.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 	text-align: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.jumbotron h1, h3 {
+	font-size: 100px;
+}
+
+.profile-pic {
+	height: 250px;
+	width: 250px;
+	border-radius: 180px;
+	float: left;
+	padding: 20px;
+	/*position: absolute;*/
+}
+
+
+
+.skill-content {
+	background: #684E7D; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #684E7D , #F3613F); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #684E7D, #F3613F); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #684E7D, #F3613F); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #684E7D , #F3613F); /* Standard syntax */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	clear: both;
+
+}
+
+.skill-heading {
+	left: 100px;
+	float: left;
+}
+
+.vault-boy {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	float: left;
 }
