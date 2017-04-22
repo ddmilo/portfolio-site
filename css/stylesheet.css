@@ -52,3 +52,13 @@ footer {
 	padding: 40px;
 	float: left;
 }
+
+body {
+	color: white;
+	background-color: black;
+	font-family: 'Ranga', cursive;
+}
+
+.jumbotron {
+	text-align: center;
+}
