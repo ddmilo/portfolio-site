@@ -70,15 +70,15 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-image: url('../images/jumbo-pic.jpg');
+	background: url('../images/jumbo-pic.jpg')no-repeat center center fixed;
 	background-size: cover;
-	background-repeat: no-repeat;
 	text-align: center;
+	align-content: center;
 	height: 100vh;
 	width: 100vw;
 }
 
-.jumbotron h1, h3 {
+.jumbotron h1 {
 	font-size: 100px;
 }
 
