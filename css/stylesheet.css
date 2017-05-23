@@ -9,6 +9,20 @@
   background-color: #190928;
 }
 
+.card{
+  color: white;
+  background: #684E7D;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #684E7D, #F3613F);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #684E7D, #F3613F);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #684E7D, #F3613F);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #684E7D, #F3613F);
+  /* Standard syntax */
+}
+
 .main-content {
   text-align: center;
   display: flex;
@@ -23,17 +37,29 @@
 
 .projects-content {
   text-align: center;
-  padding: 40px;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+
+
+  /*clear: both;*/
+  /*flex-direction: row;
   justify-content: center;
   align-content: center;
-  align-items: center;
+  align-items: center;*/
 }
 
 .projects-content h4 {
   text-decoration: underline;
 }
+
+
+.project-one img{
+  float: right;
+
+}
+
+
 
 .footer h1 {
   text-decoration: none;
@@ -127,6 +153,53 @@ h1 {
   margin: 0;
 }
 
+
+
+
+.container {
+  position: relative;
+  width: 30%;
+  padding: 10px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.GA-logo {
+  height: 15px;
+  position: relative;
+}
+
 @media only screen and (max-width: 768px) {
   .skill-content {
     display: flex;
@@ -134,10 +207,19 @@ h1 {
     align-items: center;
     clear: left;
   }
-  .carousel-item img {
-    height: 400px;
-    width: 590px;
-    margin: 0 auto;
-    background-color: #190928;
+  .projects-content {
+  display: inline-block;
+  /*flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;*/
+  }
+  .projects-content img {
+    width: 400px;
+    /*height: 100vh;*/
+
+  }
+  .overlay{
+    width: 62vw;
   }
 }
