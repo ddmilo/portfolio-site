@@ -195,6 +195,11 @@ h1 {
   -ms-transform: translate(-50%, -50%);
 }
 
+.GA-logo {
+  height: 15px;
+  position: relative;
+}
+
 @media only screen and (max-width: 768px) {
   .skill-content {
     display: flex;
