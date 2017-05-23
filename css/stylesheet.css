@@ -29,6 +29,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 30px;
 }
 
 .main-content h3 {
@@ -200,6 +201,8 @@ h1 {
   position: relative;
 }
 
+
+
 @media only screen and (max-width: 768px) {
   .skill-content {
     display: flex;
@@ -208,18 +211,22 @@ h1 {
     clear: left;
   }
   .projects-content {
-  display: inline-block;
+    display: block;
+    width: 30vw;
+  /*flex-wrap: wrap;*/
   /*flex-direction: column;
   justify-content: center;
   align-content: center;
   align-items: center;*/
   }
   .projects-content img {
-    width: 400px;
+    width: 300px;
+    /*padding-right: 20px;*/
     /*height: 100vh;*/
 
   }
   .overlay{
-    width: 62vw;
+    width: 320px;
   }
+
 }
