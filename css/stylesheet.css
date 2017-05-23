@@ -37,13 +37,16 @@
 
 .projects-content {
   text-align: center;
-  padding: 40px;
+  padding: 10px;
   display: flex;
-  clear: both;
-  flex-direction: row;
+  flex-wrap: wrap;
+
+
+  /*clear: both;*/
+  /*flex-direction: row;
   justify-content: center;
   align-content: center;
-  align-items: center;
+  align-items: center;*/
 }
 
 .projects-content h4 {
@@ -150,25 +153,13 @@ h1 {
   margin: 0;
 }
 
-@media only screen and (max-width: 768px) {
-  .skill-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    clear: left;
-  }
-  .carousel-item img {
-    height: 400px;
-    width: 590px;
-    margin: 0 auto;
-    background-color: #190928;
-  }
-}
+
 
 
 .container {
   position: relative;
-  width: 50%;
+  width: 30%;
+  padding: 10px;
 }
 
 .image {
@@ -202,4 +193,28 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .skill-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    clear: left;
+  }
+  .projects-content {
+  display: inline-block;
+  /*flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;*/
+  }
+  .projects-content img {
+    width: 400px;
+    /*height: 100vh;*/
+
+  }
+  .overlay{
+    width: 62vw;
+  }
 }
